@@ -16,7 +16,6 @@ if (leadsFromLocalStorage) {
   render(myLeads);
 }
 
-
 function render(params) {
   let listItems = "";
   for (let i = 0; i < params.length; i++) {
